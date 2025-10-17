@@ -1,30 +1,25 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disney API</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney API</title>
 </head>
 <body>
-    <nav>
-       <button onclick="Home()">Home</button> 
-       <button onclick="Informativa()">Informativa</button> 
-       <button onclick="Original()">Original</button> 
-       <button onclick="Favoritos()">Favoritos</button> 
-    </nav>
+  <nav>
+    <button onclick="Home()">Home</button>
+    <button onclick="Informativa()">Informativa</button>
+    <button onclick="Original()">Original</button>
+    <button onclick="Favoritos()">Favoritos</button>
+  </nav>
 
-    <h2>Personajes</h2>
-<button onclick="Detalle(18)">Abigail the Cow</button>
-<button onclick="Detalle(139)">Ahadi</button>
-<button onclick="Detalle(152)">Al Muddy Sultan</button>
+  <div id="root"></div>
 
-
-    <div id="root"></div>
-
-    <script src="/jds/Conexion.js"></script>
-    <script src="/jds/Detalle.js"></script>
-    <script src="/jds/Favoritos.js"></script>
-    <script src="/jds/Home.js"></script>
-    <script src="/jds/Informativa.js"></script>
-    <script src="/jds/Original.js"></script>
+  <!-- Ajuste: la carpeta se llama jds -->
+  <script src="jds/Home.js"></script>
+  <script src="jds/Original.js"></script>
+  <script src="jds/Informativa.js"></script>
+  <script src="jds/Favoritos.js"></script>
+  <script src="jds/Detalle.js"></script>
+  <script src="jds/Conexion.js"></script>
 </body>
 </html>
